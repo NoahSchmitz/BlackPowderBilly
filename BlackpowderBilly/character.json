@@ -862,7 +862,7 @@
           "MaxDirections": 1,
           "SpawnCadence": 20,
           "ScanTime": 30,
-          "WarmupTime": 15,
+          "WarmupTime": 5,
           "IFFUsed": 1,
           "GrenadeChance": 0,
           "GrenadeType": "Sosiggrenade_Flash",
@@ -882,7 +882,7 @@
             "BB_Melee"
           ],
           "LeaderType": "BB_Melee",
-          "PatrolSize": 3,
+          "PatrolSize": 2,
           "MaxPatrols": 3,
           "MaxPatrolsLimited": 2,
           "PatrolCadence": 90,
