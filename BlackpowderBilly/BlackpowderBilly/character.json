@@ -1,0 +1,1403 @@
+{
+  "$schema": "https://raw.githubusercontent.com/devyndamonster/TakeAndHoldTweaker/master/Schemas/CustomCharacterSchema.json",
+  "DisplayName": "Black Powder Billy",
+  "Description": "Back powder and melee weapons.",
+  "CharacterGroup": 1,
+  "TableID": "BlackPowderBilly",
+  "StartingTokens": 1,
+  "ForceAllAgentWeapons": false,
+  "ForceDisableOutfitFunctionality": false,
+  "UsesPurchasePriceIncrement": true,
+  "HasPrimaryWeapon": true,
+  "HasSecondaryWeapon": true,
+  "HasTertiaryWeapon": true,
+  "HasPrimaryItem": true,
+  "HasSecondaryItem": true,
+  "HasTertiaryItem": true,
+  "HasShield": false,
+  "ValidAmmoEras": [
+    "Colonial",
+    "WildWest"
+  ],
+  "ValidAmmoSets": [
+    "Real"
+  ],
+  "GlobalAmmoBlacklist": [],
+  "MagazineBlacklist": [],
+  "RequireSightTable": {
+    "Category": "Attachment",
+    "Rarity": 1,
+    "RequiredQuest": null,
+    "ItemsToSpawn": 1,
+    "MinAmmoCapacity": -1,
+    "MaxAmmoCapacity": -1,
+    "NumMagsSpawned": 3,
+    "NumClipsSpawned": 3,
+    "NumRoundsSpawned": 8,
+    "SpawnMagAndClip": false,
+    "BespokeAttachmentChance": 0.5,
+    "IsCompatibleMagazine": false,
+    "AutoPopulateGroup": true,
+    "ForceSpawnAllSubPools": false,
+    "IDOverride": [],
+    "Eras": [],
+    "Sets": [
+      "Real"
+    ],
+    "Sizes": [],
+    "Actions": [],
+    "Modes": [],
+    "ExcludedModes": [],
+    "FeedOptions": [],
+    "MountsAvailable": [],
+    "RoundPowers": [],
+    "Features": [
+      "Reflex"
+    ],
+    "MeleeStyles": [],
+    "MeleeHandedness": [],
+    "MountTypes": [
+      "Picatinny"
+    ],
+    "PowerupTypes": [],
+    "ThrownTypes": [],
+    "ThrownDamageTypes": [],
+    "SubGroups": null
+  },
+  "PrimaryWeapon": {
+    "PrimaryGroup": {
+      "Category": "Firearm",
+      "Rarity": 1,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 1,
+      "MinAmmoCapacity": -1,
+      "MaxAmmoCapacity": -1,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": true,
+      "BespokeAttachmentChance": 1,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "BrownBess"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": null,
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": null
+    },
+    "BackupGroup": null
+  },
+  "SecondaryWeapon": {
+    "PrimaryGroup": {
+      "Category": "Firearm",
+      "Rarity": 1,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 1,
+      "MinAmmoCapacity": -1,
+      "MaxAmmoCapacity": -1,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": true,
+      "BespokeAttachmentChance": 1,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "HeavyFlintlock18thCentury"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": null,
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": null
+    },
+    "BackupGroup": null
+  },
+  "TertiaryWeapon": {
+    "PrimaryGroup": {
+      "Category": "MeleeWeapon",
+      "Rarity": 1,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 1,
+      "MinAmmoCapacity": 0,
+      "MaxAmmoCapacity": -1,
+      "NumMagsSpawned": -1,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": false,
+      "BespokeAttachmentChance": 0.5,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "HeavyFlintlock18thCenturyRamrod"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": [],
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": null
+    },
+    "BackupGroup": null
+  },
+  "PrimaryItem": {
+    "PrimaryGroup": {
+      "Category": "Uncategorized",
+      "Rarity": 1,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 10,
+      "MinAmmoCapacity": -1,
+      "MaxAmmoCapacity": -1,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": false,
+      "BespokeAttachmentChance": 0.5,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "Shot69CalBall"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": [],
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": null
+    },
+    "BackupGroup": null
+  },
+  "SecondaryItem": {
+    "PrimaryGroup": {
+      "Category": "Uncategorized",
+      "Rarity": 1,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 10,
+      "MinAmmoCapacity": -1,
+      "MaxAmmoCapacity": -1,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": false,
+      "BespokeAttachmentChance": 0.5,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "PaperCartridge69CalBall"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": [],
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": null
+    },
+    "BackupGroup": null
+  },
+  "TertiaryItem": {
+    "PrimaryGroup": {
+      "Category": "Uncategorized",
+      "Rarity": 1,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 1,
+      "MinAmmoCapacity": -1,
+      "MaxAmmoCapacity": -1,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": false,
+      "BespokeAttachmentChance": 0.5,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "BlackPowderFlask"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": [],
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": null
+    },
+    "BackupGroup": null
+  },
+  "Shield": {
+    "PrimaryGroup": {
+      "Category": "MeleeWeapon",
+      "Rarity": 1,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 1,
+      "MinAmmoCapacity": -1,
+      "MaxAmmoCapacity": -1,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": false,
+      "BespokeAttachmentChance": 0,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "Medieval_Cutlass"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": [],
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": []
+    },
+    "BackupGroup": null
+  },
+  "EquipmentPools": [
+    {
+      "Type": "Firearm",
+      "IconName": "pistol.png",
+      "TokenCost": 2,
+      "TokenCostLimited": 1,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "HeavyFlintlock18thCentury"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "rifle.png",
+      "TokenCost": 3,
+      "TokenCostLimited": 2,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 8,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "BrownBess"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Equipment",
+      "IconName": "daggers.png",
+      "TokenCost": 4,
+      "TokenCostLimited": 1,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "MeleeWeapon",
+        "Rarity": 10,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "Dagger_Elegant",
+          "Dagger_Footsmans",
+          "Dagger_Horned",
+          "Dagger_SwordHilt"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Equipment",
+      "IconName": "TNH_Icon_medieval",
+      "TokenCost": 4,
+      "TokenCostLimited": 3,
+      "MinLevelAppears": 1,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "MeleeWeapon",
+        "Rarity": 8,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "Medieval_Cutlass",
+          "Medieval_ArmingSword",
+          "Medieval_BastardSword",
+          "Medieval_Claymore",
+          "Medieval_Espadon",
+          "Medieval_Estoc",
+          "Medieval_Falchion",
+          "Medieval_Flameberg",
+          "Medieval_Grossmesser",
+          "Medieval_Katzbalger",
+          "Medieval_LongSword1",
+          "Medieval_LongSword2",
+          "Medieval_LongSword3",
+          "Medieval_LongSword4",
+          "Medieval_Rapier",
+          "Medieval_Zweihander"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Consumable",
+      "IconName": "TNH_Icon_weiner_health",
+      "TokenCost": 4,
+      "TokenCostLimited": 4,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Powerup",
+        "Rarity": 4,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [
+          "Health",
+          "Regen"
+        ],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Consumable",
+      "IconName": "TNH_Icon_weiner_sword",
+      "TokenCost": 4,
+      "TokenCostLimited": 4,
+      "MinLevelAppears": 1,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Powerup",
+        "Rarity": 3,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [
+          "MuscleMeat"
+        ],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "volcanic.png",
+      "TokenCost": 7,
+      "TokenCostLimited": 5,
+      "MinLevelAppears": 3,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 9,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 1,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "VolcanicPistol"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_lever_action",
+      "TokenCost": 10,
+      "TokenCostLimited": 8,
+      "MinLevelAppears": 3,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 5,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 1,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "MartiniHenry"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Equipment",
+      "IconName": "dynamite.png",
+      "TokenCost": 4,
+      "TokenCostLimited": 2,
+      "MinLevelAppears": 2,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Explosive",
+        "Rarity": 5,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 4,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 1,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": true,
+        "IDOverride": [
+          "Dynamite"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": [
+          {
+            "Category": "Attachment",
+            "Rarity": 1,
+            "RequiredQuest": null,
+            "ItemsToSpawn": 1,
+            "MinAmmoCapacity": -1,
+            "MaxAmmoCapacity": -1,
+            "NumMagsSpawned": 0,
+            "NumClipsSpawned": 0,
+            "NumRoundsSpawned": 0,
+            "SpawnMagAndClip": false,
+            "BespokeAttachmentChance": 0,
+            "IsCompatibleMagazine": false,
+            "AutoPopulateGroup": false,
+            "ForceSpawnAllSubPools": false,
+            "IDOverride": [
+              "Matchbox"
+            ],
+            "Eras": [],
+            "Sets": [],
+            "Sizes": [],
+            "Actions": [],
+            "Modes": [],
+            "ExcludedModes": [],
+            "FeedOptions": [],
+            "MountsAvailable": [],
+            "RoundPowers": [],
+            "Features": [],
+            "MeleeStyles": [],
+            "MeleeHandedness": [],
+            "MountTypes": [],
+            "PowerupTypes": [],
+            "ThrownTypes": [],
+            "ThrownDamageTypes": [],
+            "SubGroups": []
+          }
+        ]
+      },
+      "BackupGroup": null
+    }
+  ],
+  "Levels": [
+    {
+      "NumOverrideTokensForHold": 2,
+      "MinSupplyPoints": 1,
+      "MaxSupplyPoints": 1,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Melee",
+        "NumTurrets": 0,
+        "NumGuards": 1,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 0,
+          "MaxTargets": 0,
+          "MinTargetsLimited": 0,
+          "MaxTargetsLimited": 0,
+          "EnemyType": [
+            "BB_Melee"
+          ],
+          "LeaderType": "BB_Melee",
+          "MinEnemies": 2,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 8,
+          "MaxDirections": 1,
+          "SpawnCadence": 20,
+          "ScanTime": 30,
+          "WarmupTime": 15,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Melee",
+        "NumTurrets": 0,
+        "NumGuards": 2,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "BB_Melee"
+          ],
+          "LeaderType": "BB_Melee",
+          "PatrolSize": 3,
+          "MaxPatrols": 3,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 90,
+          "PatrolCadenceLimited": 120,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 2,
+      "MinSupplyPoints": 2,
+      "MaxSupplyPoints": 2,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.5,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Melee",
+        "NumTurrets": 0,
+        "NumGuards": 2,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 1,
+          "MaxTargets": 2,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "BB_Melee"
+          ],
+          "LeaderType": "BB_Melee",
+          "MinEnemies": 3,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 2,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 2,
+          "MaxTargets": 2,
+          "MinTargetsLimited": 2,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "BB_Melee"
+          ],
+          "LeaderType": "BB_Melee",
+          "MinEnemies": 3,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 4,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Melee",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "BB_Melee"
+          ],
+          "LeaderType": "BB_Derringer",
+          "PatrolSize": 3,
+          "MaxPatrols": 3,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 90,
+          "PatrolCadenceLimited": 120,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 2,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 3,
+      "MaxBoxesSpawned": 5,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 2,
+      "BoxTokenChance": 0.1,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Derringer",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 2,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 2,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "BB_Melee"
+          ],
+          "LeaderType": "BB_Derringer",
+          "MinEnemies": 3,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 4,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 2,
+          "MaxTargets": 2,
+          "MinTargetsLimited": 2,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "BB_Melee"
+          ],
+          "LeaderType": "BB_Rifleman",
+          "MinEnemies": 3,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 2,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 2,
+          "MaxTargets": 2,
+          "MinTargetsLimited": 2,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "BB_Derringer"
+          ],
+          "LeaderType": "BB_Rifleman",
+          "MinEnemies": 3,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 2,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Derringer",
+        "NumTurrets": 0,
+        "NumGuards": 2,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "BB_Derringer"
+          ],
+          "LeaderType": "BB_Derringer",
+          "PatrolSize": 2,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 90,
+          "PatrolCadenceLimited": 120,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 3,
+      "MaxBoxesSpawned": 5,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 3,
+      "BoxTokenChance": 0.1,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Pistolman",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 2,
+          "MaxTargets": 2,
+          "MinTargetsLimited": 2,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "BB_Derringer"
+          ],
+          "LeaderType": "BB_Rifleman",
+          "MinEnemies": 2,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 4,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 1,
+          "MaxTargets": 1,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "BB_Pistolman"
+          ],
+          "LeaderType": "BB_Rifleman",
+          "MinEnemies": 2,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 4,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "BB_Pistolman"
+          ],
+          "LeaderType": "BB_Pistolman",
+          "MinEnemies": 3,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 4,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Derringer",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "BB_Derringer"
+          ],
+          "LeaderType": "BB_Pistolman",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 3,
+          "PatrolCadence": 90,
+          "PatrolCadenceLimited": 120,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 5,
+      "MinSupplyPoints": 4,
+      "MaxSupplyPoints": 4,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 5,
+      "MaxBoxesSpawned": 6,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 3,
+      "BoxTokenChance": 0.1,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Pistolman",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 1,
+          "MaxTargets": 1,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "BB_Pistolman"
+          ],
+          "LeaderType": "BB_Rifleman",
+          "MinEnemies": 4,
+          "MaxEnemies": 5,
+          "MaxEnemiesAlive": 10,
+          "MaxDirections": 4,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": true
+        },
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 2,
+          "MaxTargets": 2,
+          "MinTargetsLimited": 2,
+          "MaxTargetsLimited": 2,
+          "EnemyType": [
+            "BB_Rifleman"
+          ],
+          "LeaderType": "D_BountyHunter",
+          "MinEnemies": 2,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 4,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened",
+            "Static"
+          ],
+          "MinTargets": 2,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 2,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "BB_Melee"
+          ],
+          "LeaderType": "BB_Shotgunman",
+          "MinEnemies": 3,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 4,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened",
+            "Stealth"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "D_BountyHunter"
+          ],
+          "LeaderType": "BB_Rifleman",
+          "MinEnemies": 2,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 9,
+          "MaxDirections": 4,
+          "SpawnCadence": 40,
+          "ScanTime": 60,
+          "WarmupTime": 45,
+          "IFFUsed": 1,
+          "GrenadeChance": 0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "BB_Pistolman",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "BB_Pistolman"
+          ],
+          "LeaderType": "BB_Rifleman",
+          "PatrolSize": 3,
+          "MaxPatrols": 5,
+          "MaxPatrolsLimited": 4,
+          "PatrolCadence": 90,
+          "PatrolCadenceLimited": 120,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    }
+  ],
+  "LevelsEndless": []
+}
