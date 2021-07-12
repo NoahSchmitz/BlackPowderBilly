@@ -510,7 +510,6 @@
           "Medieval_Cutlass",
           "Medieval_ArmingSword",
           "Medieval_BastardSword",
-          "Medieval_Claymore",
           "Medieval_Espadon",
           "Medieval_Estoc",
           "Medieval_Falchion",
@@ -521,8 +520,7 @@
           "Medieval_LongSword2",
           "Medieval_LongSword3",
           "Medieval_LongSword4",
-          "Medieval_Rapier",
-          "Medieval_Zweihander"
+          "Medieval_Rapier"
         ],
         "Eras": [],
         "Sets": [],
@@ -540,7 +538,45 @@
         "PowerupTypes": [],
         "ThrownTypes": [],
         "ThrownDamageTypes": [],
-        "SubGroups": []
+        "SubGroups": [
+          {
+            "Category": "Attachment",
+            "Rarity": 4,
+            "RequiredQuest": null,
+            "ItemsToSpawn": 1,
+            "MinAmmoCapacity": -1,
+            "MaxAmmoCapacity": -1,
+            "NumMagsSpawned": 0,
+            "NumClipsSpawned": 0,
+            "NumRoundsSpawned": 0,
+            "SpawnMagAndClip": false,
+            "BespokeAttachmentChance": 0,
+            "IsCompatibleMagazine": false,
+            "AutoPopulateGroup": false,
+            "ForceSpawnAllSubPools": false,
+            "IDOverride": [
+              "Medieval_Zweihander",
+              "Medieval_Claymore"
+            ],
+            "Eras": [],
+            "Sets": [],
+            "Sizes": [],
+            "Actions": [],
+            "Modes": [],
+            "ExcludedModes": [],
+            "FeedOptions": [],
+            "MountsAvailable": [],
+            "RoundPowers": [],
+            "Features": [],
+            "MeleeStyles": [],
+            "MeleeHandedness": [],
+            "MountTypes": [],
+            "PowerupTypes": [],
+            "ThrownTypes": [],
+            "ThrownDamageTypes": [],
+            "SubGroups": []
+          }
+        ]
       },
       "BackupGroup": null
     },
