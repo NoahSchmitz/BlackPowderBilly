@@ -1,7 +1,7 @@
 {
-  "DisplayName": "Rifleman",
+  "DisplayName": "Derringer",
   "SosigEnemyCategory": "MountainMeats",
-  "SosigEnemyID": "BB_Rifleman",
+  "SosigEnemyID": "BB_Derringer",
   "SosigPrefabs": [
     "SosigBody_Default"
   ],
@@ -292,13 +292,14 @@
     }
   ],
   "WeaponOptions": [
-    "Sosiggun_Trapdoor"
+    "Sosiggun_Derringer"
   ],
   "WeaponOptionsSecondary": [
     "SosigMelee_Gladius",
     "SosigMelee_Parazonium",
     "SosigMelee_Rusty_FishingSpear",
-    "SosigMelee_Rusty_Sword"
+    "SosigMelee_Rusty_Sword",
+    "Sosiggun_Derringer"
   ],
   "WeaponOptionsTertiary": [],
   "SecondaryChance": 0.5,

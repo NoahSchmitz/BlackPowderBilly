@@ -1,15 +1,15 @@
 {
-  "guid": "h3vr.tnhtweaker.blsckpowderbilly",
-  "version": "0.0.1",
+  "guid": "h3vr.tnhtweaker.blackpowderbilly",
+  "version": "0.2.0",
   "require": "0.3.0",
   "dependencies": {
-      "h3vr.tnhtweaker.deli": "1.6.0"
+    "h3vr.tnhtweaker.deli": "1.6.0"
   },
   "name": "Blackpowder Billy",
   "description": "Back powder and melee weapons. Spawnlock *highly* recomended",
-  "source_url": "",
-  "authors": [ 
-    "TK421" 
+  "source_url": "https://github.com/NoahSchmitz/BlackPowderBilly",
+  "authors": [
+    "TK421"
   ],
   "assets": {
     "setup": {
@@ -18,5 +18,4 @@
     },
     "runtime": {}
   }
-
 }

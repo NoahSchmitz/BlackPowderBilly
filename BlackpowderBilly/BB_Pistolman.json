@@ -1,7 +1,7 @@
 {
-  "DisplayName": "Rifleman",
+  "DisplayName": "Pistolman",
   "SosigEnemyCategory": "MountainMeats",
-  "SosigEnemyID": "BB_Rifleman",
+  "SosigEnemyID": "BB_Pistolman",
   "SosigPrefabs": [
     "SosigBody_Default"
   ],
@@ -292,17 +292,21 @@
     }
   ],
   "WeaponOptions": [
-    "Sosiggun_Trapdoor"
+    "Sosiggun_ColtArmy",
+    "Sosiggun_ColtNavy"
   ],
   "WeaponOptionsSecondary": [
+    "Sosiggun_ColtArmy",
+    "Sosiggun_ColtNavy"
+  ],
+  "WeaponOptionsTertiary": [
     "SosigMelee_Gladius",
     "SosigMelee_Parazonium",
     "SosigMelee_Rusty_FishingSpear",
     "SosigMelee_Rusty_Sword"
   ],
-  "WeaponOptionsTertiary": [],
-  "SecondaryChance": 0.5,
-  "TertiaryChance": 0,
+  "SecondaryChance": 1,
+  "TertiaryChance": 0.5,
   "DroppedLootChance": 0.75,
   "DroppedObjectPool": {
     "Category": "Uncategorized",

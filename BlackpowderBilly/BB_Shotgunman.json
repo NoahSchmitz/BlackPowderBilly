@@ -1,7 +1,7 @@
 {
-  "DisplayName": "Rifleman",
+  "DisplayName": "Shotgunman",
   "SosigEnemyCategory": "MountainMeats",
-  "SosigEnemyID": "BB_Rifleman",
+  "SosigEnemyID": "BB_Shotgunman",
   "SosigPrefabs": [
     "SosigBody_Default"
   ],
@@ -292,7 +292,7 @@
     }
   ],
   "WeaponOptions": [
-    "Sosiggun_Trapdoor"
+    "Sosiggun_DoubleBarrel"
   ],
   "WeaponOptionsSecondary": [
     "SosigMelee_Gladius",

@@ -297,9 +297,7 @@
     "SosigMelee_Rusty_FishingSpear",
     "SosigMelee_Rusty_Hatchet",
     "SosigMelee_Rusty_Sword",
-    "SosigMelee_Rusty_Torch",
     "SosigMelee_SpikedCLub",
-    "SosigMelee_Tanto",
     "SosigMelee_Warclub"
   ],
   "WeaponOptionsSecondary": [
@@ -307,12 +305,8 @@
     "SosigMelee_Parazonium",
     "SosigMelee_Rusty_FishingSpear",
     "SosigMelee_Rusty_Hatchet",
-    "SosigMelee_Rusty_Pitchfork",
     "SosigMelee_Rusty_Sword",
-    "SosigMelee_Rusty_Torch",
     "SosigMelee_SpikedCLub",
-    "SosigMelee_Tanto",
-    "SosigMelee_Tomahawk",
     "SosigMelee_Warclub"
   ],
   "WeaponOptionsTertiary": [],
