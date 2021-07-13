@@ -186,7 +186,7 @@
       "Category": "Uncategorized",
       "Rarity": 1,
       "RequiredQuest": null,
-      "ItemsToSpawn": 10,
+      "ItemsToSpawn": 4,
       "MinAmmoCapacity": -1,
       "MaxAmmoCapacity": -1,
       "NumMagsSpawned": 0,
@@ -225,7 +225,7 @@
       "Category": "Uncategorized",
       "Rarity": 1,
       "RequiredQuest": null,
-      "ItemsToSpawn": 10,
+      "ItemsToSpawn": 2,
       "MinAmmoCapacity": -1,
       "MaxAmmoCapacity": -1,
       "NumMagsSpawned": 0,
@@ -493,7 +493,7 @@
       "SpawnsInLargeCase": false,
       "PrimaryGroup": {
         "Category": "MeleeWeapon",
-        "Rarity": 8,
+        "Rarity": 10,
         "RequiredQuest": null,
         "ItemsToSpawn": 1,
         "MinAmmoCapacity": -1,
@@ -540,8 +540,8 @@
         "ThrownDamageTypes": [],
         "SubGroups": [
           {
-            "Category": "Attachment",
-            "Rarity": 4,
+            "Category": "MeleeWeapon",
+            "Rarity": 5,
             "RequiredQuest": null,
             "ItemsToSpawn": 1,
             "MinAmmoCapacity": -1,
