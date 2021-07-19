@@ -312,7 +312,7 @@
   "WeaponOptionsTertiary": [],
   "SecondaryChance": 0.1,
   "TertiaryChance": 0,
-  "DroppedLootChance": 0.5,
+  "DroppedLootChance": 0.75,
   "DroppedObjectPool": {
     "Category": "Uncategorized",
     "Rarity": 1,
